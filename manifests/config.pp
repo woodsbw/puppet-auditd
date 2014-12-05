@@ -39,9 +39,10 @@ class auditd::config(
   $rules_file = '/etc/audit/audit.rules'
 
   concat { $rules_file:
-    mode  => '0600',
-    owner => 'root',
-    group => 'root',
+    mode           => '0600',
+    owner          => 'root',
+    group          => 'root',
+    ensure_newline => true,
   }
 
   concat::fragment{ 'auditd_rules_begin':
