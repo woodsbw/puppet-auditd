@@ -15,7 +15,7 @@ class auditd::config(
   $disp_qos                = 'lossy',
   $dispatcher              = '/sbin/audispd',
   $name_format             = 'NONE',
-  $max_log_file            = '5 ',
+  $max_log_file            = '6 ',
   $max_log_file_action     = 'ROTATE',
   $space_left              = '75',
   $space_left_action       = 'SYSLOG',
