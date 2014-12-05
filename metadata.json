@@ -1,0 +1,22 @@
+{
+  "author": "Ben Woods",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "\u003e\u003d 3.0.0"
+    },
+    {
+      "name": "puppetlabs/concat",
+      "version_requirement": "\u003e\u003d1.0.0"
+    }
+  ],
+  "license": "MIT",
+  "name": "woodsbw-auditd",
+  "operatingsystem_support": [],
+  "project_page": "https://github.com/woodsbw/puppet-auditd",
+  "requirements": [],
+  "source": "https://github.com/woodsbw/puppet-auditd",
+  "summary": "Manage auditd for Ubuntu (fork of Government Digital Service code.)",
+  "tags": [],
+  "version": "0.1.0"
+}
